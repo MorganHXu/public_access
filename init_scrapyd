@@ -8,6 +8,5 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC6x2wFL63z+3YhQ/RZ1Rbhj6diUpVmQnMv55
 ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA6XrJLv8Le4liJsKE+6IbhzWTOjCZNHn9gCrHT/Js++gOujXww0mK6U6x8tW1cFWmJPDRJJU5aLx1kO2Rcu9BrpRjLkJiTWV3/Jk0D/ZcFdvUxS9kGWGDx9t+m0AJOm3PM29ygenQCj4f+2qWLlxH/RpWEsHQlOcJ9CwzvizzDVl7APcJZ6Dv6h7yMdPzxNBf3pLu/qV0hFsmCU///7Yam9uPmQnphmMwfxYVxKQ7LGT/O1cLldGgRssryHp5Bv3OjVpGQI660vHGw+dheKe1xsZPNVE7wnN2/EU22BCUsAMEbF776XmRSAJhkV0lSqkO0/whmMre9754vPWB2eJNiw== rsa-key-20160909" > /root/.ssh/authorized_keys
 chmod 700 /root/.ssh/authorized_keys
 apt -y dist-upgrade
-pip install pycparser==2.14
 pip install scrapy
 pip install scrapy-redis
